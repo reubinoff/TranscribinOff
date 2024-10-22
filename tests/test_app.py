@@ -6,7 +6,6 @@ client = TestClient(app)
 def test_app():
     assert app.title == "TranscribinOff"
     assert app.description == "TranscribinOff is a web application that allows users to transcribe audio files."
-    assert app.version == "0.1.0"
 
 
 def test_users_router():

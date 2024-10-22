@@ -9,6 +9,6 @@ for router in routers:
 app = FastAPI(
     title="TranscribinOff",
     description="TranscribinOff is a web application that allows users to transcribe audio files.",
-    version="0.1.2",
+    version="0.1.1",
 )
 app.include_router(root_router)
