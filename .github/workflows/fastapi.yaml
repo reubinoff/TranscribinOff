@@ -8,6 +8,8 @@ jobs:
   tests:
     permissions:
       contents: read
+      actions: read
+      checks: write
     runs-on: ubuntu-latest
     steps:
       - name: checkout
