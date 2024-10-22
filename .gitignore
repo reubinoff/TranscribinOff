@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+**/__pycache__/
+*.pyc
+src/transcribinoff/__pycache__/app.cpython-312.pyc
+
 
 # Distribution / packaging
 .Python
@@ -12,6 +16,7 @@ build/
 develop-eggs/
 dist/
 **/dist/
+**/__pycache__/
 downloads/
 eggs/
 .eggs/
