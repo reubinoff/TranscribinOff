@@ -30,6 +30,7 @@ jobs:
         with:
           installer-parallel: true
           virtualenvs-in-project: true
+          virtualenvs-path: .venv
     
       - name: Install dependencies
         run: poetry install
