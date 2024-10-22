@@ -38,7 +38,7 @@ jobs:
         if: success() || failure()    # run this step even if previous step failed
         with:
           name: Tests results
-          path: ../pytest-report.xml
+          path: pytest-report.xml
           reporter: java-junit
 
 
