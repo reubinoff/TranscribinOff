@@ -45,13 +45,3 @@ jobs:
           name: Tests results
           path: pytest-report.xml
           reporter: java-junit
-
-
-      - name: Add Coverage to summary
-        run: |
-          ls -l 
-          echo "## Coverage Summary" >> $GITHUB_STEP_SUMMARY
-          data=$(cat code-coverage-results.md)
-          echo "$data" >> $GITHUB_STEP_SUMMARY
-          echo "# ------------------" >> $GITHUB_STEP_SUMMARY
-        continue-on-error: true
